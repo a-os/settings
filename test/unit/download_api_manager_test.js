@@ -3,16 +3,16 @@
           DownloadUI, DownloadHelper */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_download.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_downloads.js');
+require('/shared/unit_test_mocks/mock_download.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_downloads.js');
 
-require('/shared/test/unit/mocks/mock_navigator_datastore.js');
-require('/shared/js/download/download_formatter.js');
+require('/shared/unit_test_mocks/mock_navigator_datastore.js');
+require('/shared/download/download_formatter/download/download_formatter.js');
 requireApp('settings/test/unit/mock_download_ui.js');
-require('/shared/js/download/download_store.js');
+require('/shared/download/download_store/download/download_store.js');
 requireApp('settings/test/unit/mock_download_store.js');
 
-require('/shared/test/unit/mocks/mock_download_helper.js');
+require('/shared/unit_test_mocks/mock_download_helper.js');
 
 requireApp('settings/js/downloads/download_api_manager.js');
 

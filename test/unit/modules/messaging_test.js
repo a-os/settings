@@ -1,7 +1,7 @@
 /* global MockNavigatorSettings */
 'use strict';
 
-requireApp('settings/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('settings/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
 suite('messaging', function() {
 

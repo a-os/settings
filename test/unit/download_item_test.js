@@ -3,10 +3,10 @@
 
 'use strict';
 
-require('/shared/js/download/download_formatter.js');
-require('/shared/test/unit/mocks/mock_download_formatter.js');
-require('/shared/test/unit/mocks/mock_download.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/download/download_formatter/download/download_formatter.js');
+require('/shared/unit_test_mocks/mock_download_formatter.js');
+require('/shared/unit_test_mocks/mock_download.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('settings/js/downloads/download_item.js');
 requireApp('sms/test/unit/mock_utils.js');
 

@@ -3,8 +3,8 @@
 
 'use strict';
 
-require('/shared/js/toaster.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/toaster/toaster.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var ToasterTestHelper = {
   thereShouldBeNoToastShowed: function tth_thereShouldBeNoToastShowed(elem) {

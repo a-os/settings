@@ -5,12 +5,12 @@
 
 // require helpers for managing html
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/js/html_imports.js');
+require('/shared/html_imports/html_imports.js');
 
 // mocks and globals
 require('mock_fx_accounts_iac_helper.js');
-require('/shared/js/text_normalizer.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/text_normalizer/text_normalizer.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 suite('firefox accounts panel > ', function() {
   var suiteSandbox = sinon.sandbox.create(),

@@ -1,8 +1,8 @@
 /* globals MocksHelper, MockKeyboardHelper */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_keyboard_helper.js');
-require('/shared/test/unit/mocks/mock_manifest_helper.js');
+require('/shared/unit_test_mocks/mock_keyboard_helper.js');
+require('/shared/unit_test_mocks/mock_manifest_helper.js');
 
 suite('KeyboardContext', function() {
   var mockHelper = new MocksHelper([

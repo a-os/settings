@@ -1,9 +1,9 @@
 'use strict';
 /* global MockNavigatorSettings, MockManifestHelper */
 
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_manifest_helper.js');
+require('/shared/unit_test_mocks/mock_manifest_helper.js');
 
 suite('Themes > ', function() {
   var mockManifestHelper;

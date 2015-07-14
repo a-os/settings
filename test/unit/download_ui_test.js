@@ -4,12 +4,12 @@
 'use strict';
 
 requireApp('settings/test/unit/mock_mime_mapper.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_download.js');
-require('/shared/test/unit/mocks/mock_download_formatter.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_download.js');
+require('/shared/unit_test_mocks/mock_download_formatter.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
-require('/shared/js/download/download_ui.js');
+require('/shared/download/download_ui/download/download_ui.js');
 
 var mocksHelperForDownloadUI = new MocksHelper([
   'LazyLoader',

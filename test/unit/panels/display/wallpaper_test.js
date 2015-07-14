@@ -1,6 +1,6 @@
 /* global MockMozActivity */
 'use strict';
-require('/shared/test/unit/mocks/mock_moz_activity.js');
+require('/shared/unit_test_mocks/mock_moz_activity.js');
 
 suite('start testing > ', function() {
   var wallpaper;

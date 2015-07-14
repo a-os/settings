@@ -9,8 +9,8 @@ navigator.mozL10n.once(function onL10nReady() {
     }
     window.removeEventListener('panelready', onPanelReady);
     LazyLoader.load([
-      '/shared/js/fxa_iac_client.js',
-      '/shared/js/text_normalizer.js',
+      '/shared/fxa_iac_client/fxa_iac_client.js',
+      '/shared/text_normalizer/text_normalizer.js',
       'js/firefox_accounts/panel.js'
     ], function fxa_panel_loaded() {
       FxaPanel.init(FxAccountsIACHelper);

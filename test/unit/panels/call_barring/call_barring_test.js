@@ -1,7 +1,7 @@
 /* global MockMobileconnection */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
 
 suite('Call Barring settings', function() {
   var _mobileConnection,

@@ -82,11 +82,11 @@ section[role="region"].current {
  * we won't mess up the style together.
  */
 .skin-organic section.dialog > header:first-child .icon.icon-back {
-  background-image: url(/shared/style/headers/images/icons/organic/close.png);
+  background-image: url(/shared/headers/images/icons/organic/close/headers/images/icons/organic/close.png);
 }
 
 section.dialog > header:first-child .icon.icon-back {
-  background-image: url(/shared/style/headers/images/icons/close.png);
+  background-image: url(/shared/headers/images/icons/close/headers/images/icons/close.png);
 }
 
 /**

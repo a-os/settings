@@ -392,11 +392,11 @@
   var DownloadsList = {
     init: function(oncomplete) {
       var scripts = [
-        'shared/js/download/download_store.js', // Must be loaded first.
-        'shared/js/download/download_ui.js',
-        'shared/js/mime_mapper.js',
-        'shared/js/download/download_helper.js',
-        'shared/js/download/download_formatter.js',
+        'shared/download/download_store/download/download_store.js', // Must be loaded first.
+        'shared/download/download_ui/download/download_ui.js',
+        'shared/mime_mapper/mime_mapper.js',
+        'shared/download/download_helper/download/download_helper.js',
+        'shared/download/download_formatter/download/download_formatter.js',
         'js/downloads/download_api_manager.js',
         'js/downloads/download_item.js'
       ];

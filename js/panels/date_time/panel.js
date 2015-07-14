@@ -110,7 +110,7 @@ define(function(require) {
       },
 
       /**
-       * monitor time.timezone changes, see /shared/js/tz_select.js
+       * monitor time.timezone changes, see /shared/tz_select/tz_select.js
        */
       _renderTimeZone: function dt_renderTimeZone() {
         var noOp = function() {};

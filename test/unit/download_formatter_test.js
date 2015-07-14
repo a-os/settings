@@ -1,10 +1,10 @@
 /* global MocksHelper, MockL10n, DownloadFormatter, MockDownload */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_download.js');
-require('/shared/js/download/download_formatter.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_download.js');
+require('/shared/download/download_formatter/download/download_formatter.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 
 suite('DownloadFormatter', function() {

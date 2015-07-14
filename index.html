@@ -11,14 +11,14 @@
     <title>Settings</title>
 
     <!-- Debug/DUMP method support -->
-    <script defer="" src="/shared/js/dump.js"></script>
+    <script defer="" src="/shared/dump/dump.js"></script>
 
     <!-- Common style -->
-    <link rel="stylesheet" type="text/css" href="shared/style/headers.css">
-    <link rel="stylesheet" type="text/css" href="shared/style/switches.css">
-    <link rel="stylesheet" type="text/css" href="shared/style/status.css">
-    <link rel="stylesheet" type="text/css" href="shared/style/buttons.css">
-    <link rel="stylesheet" type="text/css" href="shared/style/input_areas.css">
+    <link rel="stylesheet" type="text/css" href="shared/headers/headers.css">
+    <link rel="stylesheet" type="text/css" href="shared/switches/switches.css">
+    <link rel="stylesheet" type="text/css" href="shared/status/status.css">
+    <link rel="stylesheet" type="text/css" href="shared/buttons/buttons.css">
+    <link rel="stylesheet" type="text/css" href="shared/input_areas/input_areas.css">
 
     <!-- Specific style -->
     <link rel="stylesheet" type="text/css" href="style/lists.css">
@@ -29,9 +29,9 @@
     <link rel="stylesheet" type="text/css" href="style/dialog.css">
     <link rel="stylesheet" type="text/css" href="style/icc.css">
     <!-- Panel Stylesheets
-    <link rel="stylesheet" type="text/css" href="shared/style/action_menu.css"/>
-    <link rel="stylesheet" type="text/css" href="shared/style/confirm.css"/>
-    <link rel="stylesheet" type="text/css" href="shared/style/progress_activity.css"/>
+    <link rel="stylesheet" type="text/css" href="shared/action_menu/action_menu.css"/>
+    <link rel="stylesheet" type="text/css" href="shared/confirm/confirm.css"/>
+    <link rel="stylesheet" type="text/css" href="shared/progress_activity/progress_activity.css"/>
     <link rel="stylesheet" type="text/css" href="style/achievements.css"/>
     <link rel="stylesheet" type="text/css" href="style/apps.css"/>
     <link rel="stylesheet" type="text/css" href="style/screen_lock.css"/>
@@ -39,8 +39,8 @@
     <link rel="stylesheet" type="text/css" href="style/updates.css"/>
     <link rel="stylesheet" type="text/css" href="style/downloads.css"/>
     <link rel="stylesheet" type="text/css" href="style/developer_service_workers.css"/>
-    <script defer="" src="shared/elements/gaia_buttons/script.js"></script>
-    <script defer="" src="shared/elements/gaia_confirm/script.js"></script>
+    <script defer="" src="shared/gaia_buttons/script.js"></script>
+    <script defer="" src="shared/gaia_confirm/script.js"></script>
     -->
 
     <!-- Shared resources
@@ -52,77 +52,77 @@
     <link rel="resource" type="application/json" href="shared/resources/media/notifications/"/>
     <link rel="resource" type="application/json" href="shared/resources/keyboard_layouts.json"/>
     <link rel="resource" type="image/png" href="shared/resources/branding/privacy_sprite.png"/>
-    <link rel="resource" type="application/json" href="shared/js/search_providers.json"/>
+    <link rel="resource" type="application/json" href="shared/search_providers/search_providers.json"/>
     -->
 
     <!-- Components -->
-    <script src="shared/elements/config.js"></script>
-    <link rel="stylesheet" type="text/css" href="/shared/elements/gaia-icons/gaia-icons.css">
-    <link rel="stylesheet" type="text/css" href="app://theme.gaiamobile.org/shared/elements/gaia-theme/gaia-theme.css">
-    <script src="shared/elements/gaia-header/dist/gaia-header.js"></script>
-    <script defer src="/shared/js/component_utils.js"></script>
-    <script defer src="/shared/elements/gaia_checkbox/script.js"></script>
-    <script defer src="/shared/elements/gaia_switch/script.js"></script>
+    <script src="shared/config.js"></script>
+    <link rel="stylesheet" type="text/css" href="/shared/gaia-icons/gaia-icons.css">
+    <link rel="stylesheet" type="text/css" href="app://theme.gaiamobile.org/shared/gaia-theme/gaia-theme.css">
+    <script src="shared/gaia-header/dist/gaia-header.js"></script>
+    <script defer src="/shared/component_utils/component_utils.js"></script>
+    <script defer src="/shared/gaia_checkbox/script.js"></script>
+    <script defer src="/shared/gaia_switch/script.js"></script>
 
     <!-- Localization -->
     <meta name="defaultLanguage" content="en-US">
     <meta name="availableLanguages" content="en-US">
 
-    <link rel="localization" href="shared/locales/download/download.{locale}.properties">
-    <link rel="localization" href="shared/locales/branding/branding.{locale}.properties">
-    <link rel="localization" href="shared/locales/date/date.{locale}.properties">
-    <link rel="localization" href="shared/locales/permissions/permissions.{locale}.properties">
-    <link rel="localization" href="shared/locales/tz/tz.{locale}.properties">
-    <link rel="localization" href="shared/locales/sounds/sounds.{locale}.properties">
+    <link rel="localization" href="shared/download/download.{locale}.properties">
+    <link rel="localization" href="shared/branding/branding.{locale}.properties">
+    <link rel="localization" href="shared/date/date.{locale}.properties">
+    <link rel="localization" href="shared/permissions/permissions.{locale}.properties">
+    <link rel="localization" href="shared/tz/tz.{locale}.properties">
+    <link rel="localization" href="shared/sounds/sounds.{locale}.properties">
     <link rel="localization" href="locales/settings.{locale}.properties">
     <link rel="localization" href="locales/device_type/settings.device.{locale}.properties">
 
-    <script src="shared/js/l10n.js"></script>
-    <script defer="" src="shared/js/l10n_date.js"></script>
+    <script src="shared/l10n/l10n.js"></script>
+    <script defer="" src="shared/l10n_date/l10n_date.js"></script>
 
     <!-- Lazy loader -->
-    <script src="/shared/js/lazy_loader.js"></script>
+    <script src="/shared/lazy_loader/lazy_loader.js"></script>
 
     <!-- Screen layout watcher -->
-    <script defer="" src="/shared/js/screen_layout.js"></script>
+    <script defer="" src="/shared/screen_layout/screen_layout.js"></script>
 
     <!-- shared helper library -->
-    <!--<script defer src="shared/js/download/download_store.js"></script>-->
-    <!--<script defer src="shared/js/download/download_helper.js"></script>-->
-    <!--<script defer src="shared/js/download/download_ui.js"></script>-->
-    <!--<script defer src="shared/js/mime_mapper.js"></script>-->
-    <!--<script defer src="shared/js/download/download_formatter.js"></script>-->
-    <!--<script defer src="shared/js/icc_helper.js"></script>-->
-    <!--<script defer src="shared/js/input_mgmt/input_app_list.js"></script>-->
-    <!--<script defer src="shared/js/keyboard_helper.js"></script>-->
-    <!--<script defer src="shared/js/language_list.js"></script>-->
-    <!--<script defer src="shared/js/manifest_helper.js"></script>-->
-    <!--<script defer src="shared/js/mobile_operator.js"></script>-->
-    <!--<script defer src="shared/js/async_storage.js"></script>-->
-    <!--<script defer src="shared/js/wifi_helper.js"></script>-->
-    <!--<script defer src="shared/js/bluetooth_helper.js"></script>-->
-    <!--<script defer src="shared/js/settings_helper.js"></script> -->
-    <!--<script defer src="shared/js/settings_listener.js"></script> -->
-    <!--<script defer src="shared/js/airplane_mode_helper.js"></script> -->
-    <!--<script defer src="shared/js/toaster.js"></script> -->
-    <!--<script defer src="shared/js/lazy_loader.js"></script> -->
-    <!--<script defer src="shared/js/font_size_utils.js"></script> -->
-    <!--<script defer src="shared/js/screen_layout.js"></script> -->
-    <!--<script defer src="shared/js/fxa_iac_client.js"></script> -->
-    <!--<script defer src="shared/js/text_normalizer.js"></script> -->
-    <!--<script defer src="shared/js/settings_url.js"></script> -->
-    <!--<script defer src="shared/js/simslot.js"></script> -->
-    <!--<script defer src="shared/js/simslot_manager.js"></script> -->
-    <!--<script defer src="shared/js/omadrm/fl.js"></script> -->
-    <!--<script defer src="shared/js/device_storage/enumerate_all.js"></script> -->
-    <!--<script defer src="shared/js/tz_select.js"></script> -->
-    <!--<script defer src="shared/js/sim_settings_helper.js"></script> -->
-    <!--<script defer src="shared/js/sanitizer.js"></script> -->
-    <!--<script defer src="shared/js/format.js"></script> -->
-    <!--<script defer src="shared/js/search_provider.js"></script> -->
-    <!--<script defer src="shared/js/homescreens/vertical_preferences.js"></script> -->
-    <!--<script defer src="shared/js/stk_helper.js"></script>-->
-    <!--<script defer src="shared/js/uuid.js"></script>-->
+    <!--<script defer src="shared/download/download_store/download/download_store.js"></script>-->
+    <!--<script defer src="shared/download/download_helper/download/download_helper.js"></script>-->
+    <!--<script defer src="shared/download/download_ui/download/download_ui.js"></script>-->
+    <!--<script defer src="shared/mime_mapper/mime_mapper.js"></script>-->
+    <!--<script defer src="shared/download/download_formatter/download/download_formatter.js"></script>-->
+    <!--<script defer src="shared/icc_helper/icc_helper.js"></script>-->
+    <!--<script defer src="shared/input_mgmt/input_app_list/input_mgmt/input_app_list.js"></script>-->
+    <!--<script defer src="shared/keyboard_helper/keyboard_helper.js"></script>-->
+    <!--<script defer src="shared/language_list/language_list.js"></script>-->
+    <!--<script defer src="shared/manifest_helper/manifest_helper.js"></script>-->
+    <!--<script defer src="shared/mobile_operator/mobile_operator.js"></script>-->
+    <!--<script defer src="shared/async_storage/async_storage.js"></script>-->
+    <!--<script defer src="shared/wifi_helper/wifi_helper.js"></script>-->
+    <!--<script defer src="shared/bluetooth_helper/bluetooth_helper.js"></script>-->
+    <!--<script defer src="shared/settings_helper/settings_helper.js"></script> -->
+    <!--<script defer src="shared/settings_listener/settings_listener.js"></script> -->
+    <!--<script defer src="shared/airplane_mode_helper/airplane_mode_helper.js"></script> -->
+    <!--<script defer src="shared/toaster/toaster.js"></script> -->
+    <!--<script defer src="shared/lazy_loader/lazy_loader.js"></script> -->
+    <!--<script defer src="shared/font_size_utils/font_size_utils.js"></script> -->
+    <!--<script defer src="shared/screen_layout/screen_layout.js"></script> -->
+    <!--<script defer src="shared/fxa_iac_client/fxa_iac_client.js"></script> -->
+    <!--<script defer src="shared/text_normalizer/text_normalizer.js"></script> -->
+    <!--<script defer src="shared/settings_url/settings_url.js"></script> -->
+    <!--<script defer src="shared/simslot/simslot.js"></script> -->
+    <!--<script defer src="shared/simslot_manager/simslot_manager.js"></script> -->
+    <!--<script defer src="shared/omadrm/fl/omadrm/fl.js"></script> -->
+    <!--<script defer src="shared/device_storage/enumerate_all/device_storage/enumerate_all.js"></script> -->
+    <!--<script defer src="shared/tz_select/tz_select.js"></script> -->
+    <!--<script defer src="shared/sim_settings_helper/sim_settings_helper.js"></script> -->
+    <!--<script defer src="shared/sanitizer/sanitizer.js"></script> -->
+    <!--<script defer src="shared/format/format.js"></script> -->
+    <!--<script defer src="shared/search_provider/search_provider.js"></script> -->
+    <!--<script defer src="shared/homescreens/vertical_preferences/homescreens/vertical_preferences.js"></script> -->
+    <!--<script defer src="shared/stk_helper/stk_helper.js"></script>-->
+    <!--<script defer src="shared/uuid/uuid.js"></script>-->
 
     <!-- all non-#root panels will lazy-load their own scripts -->
     <link rel="import" href="/elements/wifi_status.html">

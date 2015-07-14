@@ -3,7 +3,7 @@
 'use strict';
 
 requireApp(
-  'settings/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+  'settings/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
 suite('AirplaneModeHelper > ', function() {
   var realMozSettings;
@@ -31,7 +31,7 @@ suite('AirplaneModeHelper > ', function() {
   suite('init > ', function() {
     setup(function(done) {
       this.sinon.spy(navigator.mozSettings, 'addObserver');
-      require('/shared/js/airplane_mode_helper.js', done);
+      require('/shared/airplane_mode_helper/airplane_mode_helper.js', done);
     });
 
     test('we added observers on ' + kStatusKey, function() {

@@ -1,9 +1,9 @@
 /* global MockGetDeviceStorage */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_dom_request.js');
-require('/shared/test/unit/mocks/mock_navigator_getdevicestorage.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_dom_request.js');
+require('/shared/unit_test_mocks/mock_navigator_getdevicestorage.js');
 
 suite('AppStorage > ', function() {
   var AppStorage;

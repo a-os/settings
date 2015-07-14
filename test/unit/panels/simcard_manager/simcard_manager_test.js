@@ -3,12 +3,12 @@
 'use strict';
 
 requireApp(
-  'settings/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
+  'settings/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
 requireApp(
-  'settings/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
+  'settings/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
 requireApp(
-  'settings/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+  'settings/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 suite('SimCardManager > ', function() {
   var realL10n;

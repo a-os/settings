@@ -20,11 +20,11 @@ define(function(require) {
         return;
       }
 
-      LazyLoader.load(['shared/style/action_menu.css',
-                       'shared/style/confirm.css',
-                       'shared/style/progress_activity.css',
-                       'shared/elements/gaia_buttons/script.js',
-                       'shared/elements/gaia_confirm/script.js',
+      LazyLoader.load(['shared/action_menu/action_menu.css',
+                       'shared/confirm/confirm.css',
+                       'shared/progress_activity/progress_activity.css',
+                       'shared/gaia_buttons/script.js',
+                       'shared/gaia_confirm/script.js',
                        'style/achievements.css',
                        'style/apps.css',
                        'style/screen_lock.css',

@@ -4,8 +4,8 @@
 'use strict';
 
 require('/apps/settings/test/unit/mock_dsds_settings.js');
-require('/shared/test/unit/mocks/mock_iccmanager.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_iccmanager.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 suite('Utils', function() {
   var realDsDsSettings, realMozMobileConnections, realMozIccManager, realL10n;

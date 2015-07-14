@@ -1,9 +1,9 @@
 /* global loadBodyHTML, MockL10n, MockNavigatorMozMobileConnections */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
 
 suite('Call Barring Panel >', function() {
   var modules = [

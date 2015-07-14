@@ -9,13 +9,13 @@
 
 // require helpers for managing html
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/js/html_imports.js');
+require('/shared/html_imports/html_imports.js');
 
-require('/shared/test/unit/mocks/mocks_helper.js');
-require('/shared/test/unit/mocks/mock_settings_listener.js');
-require('/shared/test/unit/mocks/mock_settings_helper.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/js/findmydevice_iac_api.js');
+require('/shared/unit_test_mocks/mocks_helper.js');
+require('/shared/unit_test_mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_settings_helper.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/findmydevice_iac_api/findmydevice_iac_api.js');
 
 var mocksForFindMyDevice = new MocksHelper([
   'SettingsListener', 'SettingsHelper', 'LazyLoader'

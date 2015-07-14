@@ -3,13 +3,13 @@
 var MockNavigatorSettings, MockNavigatorMozIccManager, MockL10n, MockDump,
     MocksHelper, HtmlImports;
 
-require('/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
 requireApp('settings/test/unit/mock_navigator_settings.js');
 requireApp('settings/test/unit/mock_settings.js');
-require('/shared/test/unit/mocks/mock_dump.js');
+require('/shared/unit_test_mocks/mock_dump.js');
 require('/shared/test/unit/load_body_html_helper.js');
 require('/shared/test/unit/mocks_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var mocksForIccApp = ['Settings'];
 
@@ -170,7 +170,7 @@ suite('STK (App menu) >', function() {
         }
       }}});
 
-    require('/shared/js/html_imports.js', function() {
+    require('/shared/html_imports/html_imports.js', function() {
       HtmlImports.populate(function() {
         var map = {
           'shared/stk_helper': 'shared_mocks/mock_stk_helper'

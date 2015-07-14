@@ -4,27 +4,27 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 // Mockup the API
-require('/shared/test/unit/mocks/mock_download.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_downloads.js');
+require('/shared/unit_test_mocks/mock_download.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_downloads.js');
 // We retrieve them for stubbing
 requireApp('settings/test/unit/mock_download_ui.js');
-require('/shared/js/mime_mapper.js');
+require('/shared/mime_mapper/mime_mapper.js');
 
 // Mocks for several functions
-require('/shared/test/unit/mocks/mock_navigator_datastore.js');
-require('/shared/js/download/download_store.js');
+require('/shared/unit_test_mocks/mock_navigator_datastore.js');
+require('/shared/download/download_store/download/download_store.js');
 requireApp('settings/test/unit/mock_download_store.js');
 
-require('/shared/js/lazy_loader.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
+require('/shared/lazy_loader/lazy_loader.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
 
-require('/shared/js/download/download_formatter.js');
-require('/shared/test/unit/mocks/mock_download_formatter.js');
+require('/shared/download/download_formatter/download/download_formatter.js');
+require('/shared/unit_test_mocks/mock_download_formatter.js');
 
-require('/shared/js/download/download_helper.js');
-require('/shared/test/unit/mocks/mock_download_helper.js');
+require('/shared/download/download_helper/download/download_helper.js');
+require('/shared/unit_test_mocks/mock_download_helper.js');
 
 // Code needed from the app
 requireApp('settings/js/downloads/download_item.js');
@@ -32,7 +32,7 @@ requireApp('settings/js/downloads/download_api_manager.js');
 requireApp('settings/js/downloads/downloads_list.js');
 
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/js/html_imports.js');
+require('/shared/html_imports/html_imports.js');
 
 suite('DownloadList', function() {
   var mocksHelperForDownloadList = new MocksHelper([

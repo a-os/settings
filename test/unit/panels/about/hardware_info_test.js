@@ -2,8 +2,8 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
 
 suite('about > hardware_info', function() {
   var hardwareInfo;
