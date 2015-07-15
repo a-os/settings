@@ -71,6 +71,7 @@
     "toaster": "git@github.com:alivedise/toaster.git#~0.0.1",
     "wifi_helper": "git@github.com:alivedise/wifi_helper.git#~0.0.1",
     "permissions": "git@github.com:alivedise/permissions.git#~0.0.1",
-    "sounds": "git@github.com:alivedise/sounds.git#~0.0.1"
+    "sounds": "git@github.com:alivedise/sounds.git#~0.0.1",
+    "tz": "git@github.com:alivedise/tz.git#~0.0.1"
   }
 }
