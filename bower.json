@@ -69,6 +69,7 @@
     "uuid": "git@github.com:alivedise/uuid.git#~0.0.1",
     "tz_select": "git@github.com:alivedise/tz_select.git#~0.0.1",
     "toaster": "git@github.com:alivedise/toaster.git#~0.0.1",
-    "wifi_helper": "git@github.com:alivedise/wifi_helper.git#~0.0.1"
+    "wifi_helper": "git@github.com:alivedise/wifi_helper.git#~0.0.1",
+    "permissions": "git@github.com:alivedise/permissions.git#~0.0.1"
   }
 }
