@@ -23,7 +23,7 @@
     "config": "git@github.com:alivedise/config.git#~0.0.1",
     "confirm": "git@github.com:alivedise/confirm.git",
     "device_storage": "git@github.com:alivedise/device_storage.git#~0.0.1",
-    "download": "git@github.com:alivedise/download.git",
+    "download_lib": "git@github.com:alivedise/download_lib.git#~0.0.1",
     "dump": "git@github.com:alivedise/dump.git#~0.0.1",
     "findmydevice_iac_api": "git@github.com:alivedise/findmydevice_iac_api.git#~0.0.1",
     "font_size_utils": "git@github.com:alivedise/font_size_utils.git#~0.0.1",

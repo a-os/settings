@@ -14,16 +14,16 @@ require('/shared/mime_mapper/mime_mapper.js');
 
 // Mocks for several functions
 require('/shared/unit_test_mocks/mock_navigator_datastore.js');
-require('/shared/download/download_store/download/download_store.js');
+require('/shared/download_lib/download_store/download/download_store.js');
 requireApp('settings/test/unit/mock_download_store.js');
 
 require('/shared/lazy_loader/lazy_loader.js');
 require('/shared/unit_test_mocks/mock_lazy_loader.js');
 
-require('/shared/download/download_formatter/download/download_formatter.js');
+require('/shared/download_lib/download_formatter/download/download_formatter.js');
 require('/shared/unit_test_mocks/mock_download_formatter.js');
 
-require('/shared/download/download_helper/download/download_helper.js');
+require('/shared/download_lib/download_helper/download/download_helper.js');
 require('/shared/unit_test_mocks/mock_download_helper.js');
 
 // Code needed from the app

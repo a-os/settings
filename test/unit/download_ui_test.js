@@ -9,7 +9,7 @@ require('/shared/unit_test_mocks/mock_download.js');
 require('/shared/unit_test_mocks/mock_download_formatter.js');
 require('/shared/unit_test_mocks/mock_l10n.js');
 
-require('/shared/download/download_ui/download/download_ui.js');
+require('/shared/download_lib/download_ui/download/download_ui.js');
 
 var mocksHelperForDownloadUI = new MocksHelper([
   'LazyLoader',

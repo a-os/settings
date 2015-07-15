@@ -14,7 +14,7 @@
  *
  * This helper requires some l10n resources, make sure to import them:
  *   <link rel="localization"
- *         href="/shared/download/download.{locale}.properties">
+ *         href="/shared/download_lib/download.{locale}.properties">
  */
 
 window.DownloadItem = (function DownloadItem() {

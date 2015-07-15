@@ -3,7 +3,7 @@
 
 'use strict';
 
-require('/shared/download/download_formatter/download/download_formatter.js');
+require('/shared/download_lib/download_formatter/download/download_formatter.js');
 require('/shared/unit_test_mocks/mock_download_formatter.js');
 require('/shared/unit_test_mocks/mock_download.js');
 require('/shared/unit_test_mocks/mock_l10n.js');

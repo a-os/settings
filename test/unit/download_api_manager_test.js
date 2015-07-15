@@ -7,9 +7,9 @@ require('/shared/unit_test_mocks/mock_download.js');
 require('/shared/unit_test_mocks/mock_navigator_moz_downloads.js');
 
 require('/shared/unit_test_mocks/mock_navigator_datastore.js');
-require('/shared/download/download_formatter/download/download_formatter.js');
+require('/shared/download_lib/download_formatter/download/download_formatter.js');
 requireApp('settings/test/unit/mock_download_ui.js');
-require('/shared/download/download_store/download/download_store.js');
+require('/shared/download_lib/download_store/download/download_store.js');
 requireApp('settings/test/unit/mock_download_store.js');
 
 require('/shared/unit_test_mocks/mock_download_helper.js');

@@ -8,20 +8,20 @@ require('/shared/unit_test_mocks/mock_l10n.js');
 require('/shared/unit_test_mocks/mock_download.js');
 require('/shared/unit_test_mocks/mock_navigator_moz_downloads.js');
 
-require('/shared/download/download_ui/download/download_ui.js');
+require('/shared/download_lib/download_ui/download/download_ui.js');
 require('/shared/mime_mapper/mime_mapper.js');
 require('/shared/settings_listener/settings_listener.js');
 
-require('/shared/download/download_store/download/download_store.js');
+require('/shared/download_lib/download_store/download/download_store.js');
 requireApp('settings/test/unit/mock_download_store.js');
 
 require('/shared/lazy_loader/lazy_loader.js');
 require('/shared/unit_test_mocks/mock_lazy_loader.js');
 
-require('/shared/download/download_formatter/download/download_formatter.js');
+require('/shared/download_lib/download_formatter/download/download_formatter.js');
 require('/shared/unit_test_mocks/mock_download_formatter.js');
 
-require('/shared/download/download_helper/download/download_helper.js');
+require('/shared/download_lib/download_helper/download/download_helper.js');
 require('/shared/unit_test_mocks/mock_moz_activity.js');
 require('/shared/unit_test_mocks/mock_navigator_getdevicestorage.js');
 require('/shared/unit_test_mocks/mock_navigator_getdevicestorages.js');
