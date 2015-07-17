@@ -8,7 +8,7 @@ define(function(require) {
 
   var DialogService = require('modules/dialog_service');
   var AppsCache = require('modules/apps_cache');
-  var ScreenLayout = require('shared/screen_layout');
+  var ScreenLayout = require('shared/screen_layout/screen_layout');
   var SettingsCache = require('modules/settings_cache');
 
   const DEVTOOLS_UNRESTRICTED_KEY = 'devtools.unrestricted';

@@ -6,7 +6,7 @@
 define(function(require) {
   'use strict';
 
-  var WifiHelper = require('shared/wifi_helper');
+  var WifiHelper = require('shared/wifi_helper/wifi_helper');
   var wifiManager = WifiHelper.getWifiManager();
 
   var WifiUtils = {

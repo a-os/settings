@@ -10,7 +10,7 @@ define(function(require) {
   'use strict';
 
   var NavigatorBluetooth = require('modules/navigator/mozBluetooth');
-  var BluetoothHelperModule = require('shared/bluetooth_helper');
+  var BluetoothHelperModule = require('shared/bluetooth_helper/bluetooth_helper');
   var Observable = require('modules/mvvm/observable');
 
   var settings = window.navigator.mozSettings;

@@ -10,8 +10,8 @@ define(function(require) {
 
     var PageTransitions = require('modules/page_transitions');
     var PanelCache = require('modules/panel_cache');
-    var ScreenLayout = require('shared/screen_layout');
-    var LazyLoader = require('shared/lazy_loader');
+    var ScreenLayout = require('shared/screen_layout/screen_layout');
+    var LazyLoader = require('shared/lazy_loader/lazy_loader');
     var Settings = require('settings');
 
     var _rootPanelId = null;
@@ -143,8 +143,9 @@ define(function(require) {
               // XXX: It is assumed that the string for the header of the root
               //      panel always fits and the font size utils are not
               //      required.
-              'shared/font_size_utils', // used by all header building blocks
-              'shared/async_storage'
+              //      used by all header building blocks
+              'shared/font_size_utils/font_size_utils',
+              'shared/async_storage/async_storage'
             ], resolve);
           });
         }

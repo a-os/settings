@@ -1,7 +1,7 @@
 define(function(require) {
   'use strict';
 
-  var SIMSlotManager = require('shared/simslot_manager');
+  var SIMSlotManager = require('shared/simslot_manager/simslot_manager');
   var Messaging = require('modules/messaging');
   var SettingsPanel = require('modules/settings_panel');
   var l10n = navigator.mozL10n;

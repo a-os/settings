@@ -185,7 +185,7 @@ define(function(require) {
     iacRequest: function(request) {
       return new Promise((resolve, reject) => {
         this.connect().then(port => {
-          var id = require('shared/uuid')();
+          var id = require('shared/uuid/uuid')();
           request.id = id;
           port.postMessage(request);
           port.onmessage = event => {

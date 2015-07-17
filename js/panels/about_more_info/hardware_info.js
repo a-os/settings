@@ -6,7 +6,7 @@
 define(function(require) {
   'use strict';
 
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
 
   /**
    * @alias module:about_more_info/HardwareInfo

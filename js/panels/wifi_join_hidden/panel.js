@@ -2,7 +2,7 @@ define(function(require) {
   'use strict';
 
   var DialogPanel = require('modules/dialog_panel');
-  var WifiHelper = require('shared/wifi_helper');
+  var WifiHelper = require('shared/wifi_helper/wifi_helper');
   var WifiUtils = require('modules/wifi_utils');
 
   return function ctor_joinHiddenWifi() {

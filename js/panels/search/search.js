@@ -2,8 +2,8 @@
 
 define(function(require) {
 
-  require('shared/format');
-  var SearchProvider = require('shared/search_provider');
+  require('shared/format/format');
+  var SearchProvider = require('shared/search_provider/search_provider');
 
   function Search() {
     this._searchEngineSelect = null;

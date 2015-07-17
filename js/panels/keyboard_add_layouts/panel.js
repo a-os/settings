@@ -3,7 +3,7 @@ define(function(require) {
 
   var SettingsPanel = require('modules/settings_panel');
   var KeyboardContext = require('modules/keyboard_context');
-  var KeyboardHelper = require('shared/keyboard_helper');
+  var KeyboardHelper = require('shared/keyboard_helper/keyboard_helper');
   var NestedTemplateFactory =
     require('panels/keyboard_add_layouts/nested_template_factory');
   var keyboardTemplate =

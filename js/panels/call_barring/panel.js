@@ -6,7 +6,7 @@ define(function(require) {
   var SettingsPanel = require('modules/settings_panel');
   var CallBarring = require('panels/call_barring/call_barring');
   var InputPasscodeScreen = require('panels/call_barring/passcode_dialog');
-  var Toaster = require('shared/toaster');
+  var Toaster = require('shared/toaster/toaster');
 
   return function ctor_call_barring() {
     var _callBarring = CallBarring;

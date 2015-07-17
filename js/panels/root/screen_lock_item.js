@@ -1,7 +1,7 @@
 define(function(require) {
   'use strict';
 
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
 
   function ScreenLockItem(element) {
     this._itemEnabled = false;
@@ -9,7 +9,7 @@ define(function(require) {
     this._element = element;
     this._boundUpdateUI = this._updateUI.bind(this);
   }
-  
+
   ScreenLockItem.prototype = {
     set enabled(value) {
       if (value === this._itemEnabled) {

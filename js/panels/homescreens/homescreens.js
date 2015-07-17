@@ -6,7 +6,7 @@ define(function(require) {
 
   var AppsCache = require('modules/apps_cache');
   var SettingsService = require('modules/settings_service');
-  var ManifestHelper = require('shared/manifest_helper');
+  var ManifestHelper = require('shared/manifest_helper/manifest_helper');
 
   var Homescreens = function() {
     this._settings = navigator.mozSettings;

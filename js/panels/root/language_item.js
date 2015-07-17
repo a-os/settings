@@ -6,7 +6,7 @@
 define(function(require) {
   'use strict';
 
-  var LanguageList = require('shared/language_list');
+  var LanguageList = require('shared/language_list/language_list');
 
   /**
    * @alias module:panels/root/language_item
@@ -52,7 +52,7 @@ define(function(require) {
       if (this._enabled === value || !navigator.mozL10n) {
         return;
       }
-      
+
       this._enabled = value;
       if (this._enabled) {
         window.addEventListener('localized', this._boundRefreshText);

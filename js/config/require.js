@@ -3,7 +3,7 @@ require.config({
   paths: {
     'modules': 'modules',
     'panels': 'panels',
-    'shared': '../shared/js'
+    'shared': '../shared'
   },
   // This is the default value of the loading timeout, we will disable the
   // timeout in the production build
@@ -21,91 +21,91 @@ require.config({
     'vendor/jszip': {
       exports: 'JSZip'
     },
-    'shared/apn_helper': {
+    'shared/apn_helper/apn_helper': {
       exports: 'ApnHelper'
     },
-    'shared/async_storage': {
+    'shared/async_storage/async_storage': {
       exports: 'asyncStorage'
     },
-    'shared/icc_helper': {
+    'shared/icc_helper/icc_helper': {
       exports: 'IccHelper'
     },
-    'shared/keyboard_helper': {
+    'shared/keyboard_helper/keyboard_helper': {
       exports: 'KeyboardHelper',
       deps: ['shared/input_mgmt/input_app_list']
     },
-    'shared/language_list': {
+    'shared/language_list/language_list': {
       exports: 'LanguageList'
     },
-    'shared/lazy_loader': {
+    'shared/lazy_loader/lazy_loader': {
       exports: 'LazyLoader'
     },
-    'shared/search_provider': {
+    'shared/search_provider/search_provider': {
       exports: 'SearchProvider'
     },
-    'shared/manifest_helper': {
+    'shared/manifest_helper/manifest_helper': {
       exports: 'ManifestHelper'
     },
-    'shared/screen_layout': {
+    'shared/screen_layout/screen_layout': {
       exports: 'ScreenLayout'
     },
-    'shared/settings_url': {
+    'shared/settings_url/settings_url': {
       exports: 'SettingsURL'
     },
-    'shared/omadrm/fl': {
+    'shared/omadrm/omadrm/fl': {
       exports: 'ForwardLock'
     },
-    'shared/settings_listener': {
+    'shared/settings_listener/settings_listener': {
       exports: 'SettingsListener'
     },
-    'shared/toaster': {
+    'shared/toaster/toaster': {
       exports: 'Toaster'
     },
-    'shared/sanitizer': {
+    'shared/sanitizer/sanitizer': {
       exports: 'Sanitizer'
     },
-    'shared/sim_settings_helper': {
+    'shared/sim_settings_helper/sim_settings_helper': {
       exports: 'SimSettingsHelper'
     },
-    'shared/settings_helper': {
+    'shared/settings_helper/settings_helper': {
       exports: 'SettingsHelper'
     },
-    'shared/tz_select': {
+    'shared/tz_select/tz_select': {
       exports: 'tzSelect',
-      deps: ['shared/icc_helper']
+      deps: ['shared/icc_helper/icc_helper']
     },
-    'shared/uuid': {
+    'shared/uuid/uuid': {
       exports: 'uuid'
     },
-    'shared/wifi_helper': {
+    'shared/wifi_helper/wifi_helper': {
       exports: 'WifiHelper'
     },
-    'shared/bluetooth_helper': {
+    'shared/bluetooth_helper/bluetooth_helper': {
       exports: 'BluetoothHelper'
     },
-    'shared/simslot': {
+    'shared/simslot/simslot': {
       exports: 'SIMSlot'
     },
-    'shared/simslot_manager': {
+    'shared/simslot_manager/simslot_manager': {
       exports: 'SIMSlotManager',
-      deps: ['shared/simslot']
+      deps: ['shared/simslot/simslot']
     },
-    'shared/mobile_operator': {
+    'shared/mobile_operator/mobile_operator': {
       exports: 'MobileOperator'
     },
     'utils': {
       exports: ''
     },
-    'shared/device_storage/enumerate_all': {
+    'shared/device_storage/device_storage/enumerate_all': {
       exports: 'enumerateAll'
     },
-    'shared/airplane_mode_helper': {
+    'shared/airplane_mode_helper/airplane_mode_helper': {
       exports: 'AirplaneModeHelper'
     },
-    'shared/homescreens/vertical_preferences': {
+    'shared/homescreens/homescreens/vertical_preferences': {
       exports: 'verticalPreferences'
     },
-    'shared/stk_helper': {
+    'shared/stk_helper/stk_helper': {
       exports: 'STKHelper'
     }
   },
@@ -156,7 +156,7 @@ require.config({
       name: 'panels/languages/panel',
       exclude: [
         'main',
-        'shared/keyboard_helper',
+        'shared/keyboard_helper/keyboard_helper',
         'modules/date_time'
       ]
     },
@@ -216,7 +216,7 @@ require.config({
         'main',
         'modules/mvvm/list_view',
         'modules/keyboard_context',
-        'shared/keyboard_helper'
+        'shared/keyboard_helper/keyboard_helper'
       ]
     },
     {

@@ -12,10 +12,10 @@ define(function(require) {
   var CMAS_KEY = 'cmas.enabled';
   var CMAS_PREF_KEY = 'cmas.user-pref.enabled';
 
-  var IccHelper = require('shared/icc_helper');
-  var asyncStorage = require('shared/async_storage');
+  var IccHelper = require('shared/icc_helper/icc_helper');
+  var asyncStorage = require('shared/async_storage/async_storage');
   var SettingsUtils = require('modules/settings_utils');
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
   var settings = window.navigator.mozSettings;
 
   var Messaging = function() {

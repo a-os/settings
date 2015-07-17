@@ -12,7 +12,7 @@ define(function(require) {
   var Module = require('modules/base/module');
   var Observable = require('modules/mvvm/observable');
   var ObservableArray = require('modules/mvvm/observable_array');
-  var SettingsHelper = require('shared/settings_helper');
+  var SettingsHelper = require('shared/settings_helper/settings_helper');
 
   const SETTINGS_KEY = 'ril.radio.preferredNetworkType';
 

@@ -9,7 +9,7 @@
 define(function(require) {
   'use strict';
 
-  var LazyLoader = require('shared/lazy_loader');
+  var LazyLoader = require('shared/lazy_loader/lazy_loader');
 
   /**
    * @alias module:root/root

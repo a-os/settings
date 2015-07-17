@@ -9,7 +9,7 @@ define(function(require) {
 
   // modules / helpers
   var SettingsCache = require('modules/settings_cache');
-  var WifiHelper = require('shared/wifi_helper');
+  var WifiHelper = require('shared/wifi_helper/wifi_helper');
   var wifiManager = WifiHelper.getWifiManager();
   var settings = Settings.mozSettings;
 

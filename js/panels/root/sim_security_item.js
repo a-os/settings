@@ -7,8 +7,8 @@
 define(function(require) {
   'use strict';
 
-  var SIMSlotManager = require('shared/simslot_manager');
-  var AirplaneModeHelper = require('shared/airplane_mode_helper');
+  var SIMSlotManager = require('shared/simslot_manager/simslot_manager');
+  var AirplaneModeHelper = require('shared/airplane_mode_helper/airplane_mode_helper');
   var SimSecurity = require('modules/sim_security');
 
   function SimSecurityItem(element) {

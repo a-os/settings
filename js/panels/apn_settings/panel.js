@@ -8,7 +8,7 @@ define(function(require) {
   var SettingsService = require('modules/settings_service');
   var SettingsPanel = require('modules/settings_panel');
   var ApnSettingsManager = require('modules/apn/apn_settings_manager');
-  var Toaster = require('shared/toaster');
+  var Toaster = require('shared/toaster/toaster');
 
   return function ctor_apn_settings_panel() {
     var _serviceId = 0;

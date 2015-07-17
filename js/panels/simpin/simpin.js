@@ -2,11 +2,11 @@ define(function(require) {
   'use strict';
 
   var _ = window.navigator.mozL10n.get;
-  var AirplaneModeHelper = require('shared/airplane_mode_helper');
-  var SIMSlotManager = require('shared/simslot_manager');
+  var AirplaneModeHelper = require('shared/airplane_mode_helper/airplane_mode_helper');
+  var SIMSlotManager = require('shared/simslot_manager/simslot_manager');
   var DialogService = require('modules/dialog_service');
-  var Sanitizer = require('shared/sanitizer');
-  var Toaster = require('shared/toaster');
+  var Sanitizer = require('shared/sanitizer/sanitizer');
+  var Toaster = require('shared/toaster/toaster');
   var SimSecurity = require('modules/sim_security');
 
   var SimPin = function(elements) {

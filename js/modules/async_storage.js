@@ -4,7 +4,7 @@
 define(function(require) {
   'use strict';
 
-  var AsyncStorage = require('shared/async_storage');
+  var AsyncStorage = require('shared/async_storage/async_storage');
 
   return {
     getItem: function as_getItem(key) {

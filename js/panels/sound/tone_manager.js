@@ -6,9 +6,9 @@
 define(function(require) {
   'use strict';
 
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
   var SettingsCache = require('modules/settings_cache');
-  var ForwardLock = require('shared/omadrm/fl');
+  var ForwardLock = require('shared/omadrm/omadrm/fl');
 
   var ToneManager = function() {
     this._elements = null;

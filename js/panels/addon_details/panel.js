@@ -6,8 +6,8 @@ define(function(require) {
   var AddonDetails = require('panels/addon_details/addon_details');
   var SettingsService = require('modules/settings_service');
   var DialogService = require('modules/dialog_service');
-  var Toaster = require('shared/toaster');
-  var ManifestHelper = require('shared/manifest_helper');
+  var Toaster = require('shared/toaster/toaster');
+  var ManifestHelper = require('shared/manifest_helper/manifest_helper');
 
   return function ctor_addon_details_panel() {
     return SettingsPanel({

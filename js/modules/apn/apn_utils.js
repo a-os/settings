@@ -5,10 +5,10 @@ define(function(require) {
   'use strict';
 
   var SettingsCache = require('modules/settings_cache');
-  var ApnHelper = require('shared/apn_helper');
+  var ApnHelper = require('shared/apn_helper/apn_helper');
   var ApnConst = require('modules/apn/apn_const');
   var ApnItem = require('modules/apn/apn_item');
-  var LazyLoader = require('shared/lazy_loader');
+  var LazyLoader = require('shared/lazy_loader/lazy_loader/lazy_loader');
 
   var CP_APN_KEY = ApnConst.CP_APN_KEY;
   var DEFAULT_APN_KEY = ApnConst.DEFAULT_APN_KEY;

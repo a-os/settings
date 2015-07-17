@@ -6,7 +6,7 @@
 define(function(require) {
   'use strict';
 
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
   var SettingsCache = require('modules/settings_cache');
   var Module = require('modules/base/module');
   var Observable = require('modules/mvvm/observable');

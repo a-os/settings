@@ -1,7 +1,7 @@
 define(function(require) {
   'use strict';
 
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
   var SettingsPanel = require('modules/settings_panel');
   var PermissionDetail =
     require('panels/app_permissions_detail/app_permissions_detail');

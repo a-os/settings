@@ -2,11 +2,11 @@ define(function(require) {
   'use strict';
 
   var DialogService = require('modules/dialog_service');
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
   var SettingsPanel = require('modules/settings_panel');
   var WifiContext = require('modules/wifi_context');
   var WifiUtils = require('modules/wifi_utils');
-  var WifiHelper = require('shared/wifi_helper');
+  var WifiHelper = require('shared/wifi_helper/wifi_helper');
   var WifiKnownNetworks =
     require('panels/wifi_manage_networks/wifi_known_networks');
   var wifiManager = WifiHelper.getWifiManager();

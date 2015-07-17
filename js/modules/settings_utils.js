@@ -9,7 +9,7 @@ define(function(require) {
 
   // TODO
   // We need to move utils.js to SettingsUtils step by step
-  var LazyLoader = require('shared/lazy_loader');
+  var LazyLoader = require('shared/lazy_loader/lazy_loader');
 
   var SettingsUtils = {
     /**

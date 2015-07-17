@@ -6,7 +6,7 @@ define(function(require) {
 
   var SettingsPanel = require('modules/settings_panel');
   var DateTime = require('modules/date_time');
-  var tzSelect = require('shared/tz_select');
+  var tzSelect = require('shared/tz_select/tz_select');
 
   return function ctor_date_time_panel() {
     var HOUR_12 = 'ampm';

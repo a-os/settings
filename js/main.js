@@ -5,13 +5,13 @@ require(['config/require'], function() {
     // The following are the scripts used by many other scripts. We load them
     // at once here.
     require('utils');
-    require('shared/settings_listener');
+    require('shared/settings_listener/settings_listener');
     require('modules/mvvm/observable');
     require('modules/mvvm/observable_array');
     require('modules/base/event_emitter');
 
     var SettingsService = require('modules/settings_service');
-    var ScreenLayout = require('shared/screen_layout');
+    var ScreenLayout = require('shared/screen_layout/screen_layout');
     var Settings = require('settings');
     var DsdsSettings = require('dsds_settings');
 
@@ -40,7 +40,7 @@ require(['config/require'], function() {
         var pendingTargetPanel = initialPanelHandler.pendingTargetPanel;
         // XXX: In bluetooth and call item,
         // we need special logic for navigating to specific panels.
-       
+
         switch (pendingTargetPanel) {
           case 'bluetooth':
             require(['modules/bluetooth/version_detector'],

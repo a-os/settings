@@ -11,9 +11,9 @@
 define(function(require) {
   'use strict';
 
-  var SettingsListener = require('shared/settings_listener');
-  var SettingsURL = require('shared/settings_url');
-  var ForwardLock = require('shared/omadrm/fl');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
+  var SettingsURL = require('shared/settings_url/settings_url');
+  var ForwardLock = require('shared/omadrm/omadrm/fl');
   var Module = require('modules/base/module');
   var Observable = require('modules/mvvm/observable');
   var WALLPAPER_KEY = 'wallpaper.image';
@@ -50,7 +50,7 @@ define(function(require) {
     this.wallpaperURL = new SettingsURL();
     this._watchWallpaperChange();
   };
-  
+
   /**
    * Watch the value of wallpaper.image from settings and change wallpaperSrc.
    *

@@ -5,7 +5,7 @@
 define(function(require) {
   'use strict';
 
-  var ManifestHelper = require('shared/manifest_helper');
+  var ManifestHelper = require('shared/manifest_helper/manifest_helper');
   var SettingsService = require('modules/settings_service');
   var mozApps = require('modules/navigator/mozApps');
   var mozPerms = require('modules/navigator/mozPermissionSettings');

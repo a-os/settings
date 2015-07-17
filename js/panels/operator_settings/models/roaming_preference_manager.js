@@ -1,6 +1,6 @@
 /**
  * RoamingPreferenceManager provides functions for setting roaming preference
- * and update the settings fiels accordingly. 
+ * and update the settings fiels accordingly.
  *
  * @module panels/operator_settings/models/roaming_preference_manager
  */
@@ -9,7 +9,7 @@ define(function(require) {
 
   var Module = require('modules/base/module');
   var Observable = require('modules/mvvm/observable');
-  var SettingsHelper = require('shared/settings_helper');
+  var SettingsHelper = require('shared/settings_helper/settings_helper');
 
   const SETTINGS_KEY = 'ril.roaming.preference';
 

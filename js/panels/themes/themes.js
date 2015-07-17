@@ -2,7 +2,7 @@ define(function(require) {
   'use strict';
 
   var AppsCache = require('modules/apps_cache');
-  var ManifestHelper = require('shared/manifest_helper');
+  var ManifestHelper = require('shared/manifest_helper/manifest_helper');
   var SettingsCache = require('modules/settings_cache');
   var ListView = require('modules/mvvm/list_view');
   var template = require('./layout_template');

@@ -4,7 +4,7 @@ define(function(require) {
   var SettingsPanel = require('modules/settings_panel');
   var PermissionList =
     require('panels/app_permissions_list/app_permissions_list');
-  var LazyLoader = require('shared/lazy_loader');
+  var LazyLoader = require('shared/lazy_loader/lazy_loader');
 
   return function ctor_app_permissions_list_panel() {
     // We use this flag to identify permissions_table.json has been loaded or

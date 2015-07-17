@@ -8,7 +8,7 @@ define(function(require) {
   var SettingsPanel = require('modules/settings_panel');
   var DisplayModule = require('panels/display/display');
   var WallpaperModule = require('panels/display/wallpaper');
-  var LazyLoader = require('shared/lazy_loader');
+  var LazyLoader = require('shared/lazy_loader/lazy_loader');
 
   var wallpaperElements = {};
   var displayElements = {};

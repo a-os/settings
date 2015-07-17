@@ -4,8 +4,8 @@ define(function(require) {
   var SettingsPanel = require('modules/settings_panel');
   var SettingsService = require('modules/settings_service');
   var DialogService = require('modules/dialog_service');
-  var EnumerateAll = require('shared/device_storage/enumerate_all');
-  var WifiHelper = require('shared/wifi_helper');
+  var EnumerateAll = require('shared/device_storage/device_storage/enumerate_all');
+  var WifiHelper = require('shared/wifi_helper/wifi_helper');
   var wifiManager = WifiHelper.getWifiManager();
 
   return function ctor_selectCertificateWifi() {

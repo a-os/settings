@@ -8,7 +8,7 @@ define(function(require) {
   'use strict';
 
   // modules / helpers
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
 
   const RE_ENABLE_WIFI_TETHERING_TIME = 1000;
 

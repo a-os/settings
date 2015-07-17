@@ -8,7 +8,7 @@ define(function(require) {
   'use strict';
 
   var SettingsCache = require('modules/settings_cache');
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
   var DialogService = require('modules/dialog_service');
 
   var UsbTransfer = function() {

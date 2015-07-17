@@ -3,7 +3,7 @@ define(function(require) {
 
   var SettingsPanel = require('modules/settings_panel');
   var WifiUtils = require('modules/wifi_utils');
-  var WifiHelper = require('shared/wifi_helper');
+  var WifiHelper = require('shared/wifi_helper/wifi_helper');
   var wifiManager = WifiHelper.getWifiManager();
 
   return function ctor_manageCertificatedWifi() {

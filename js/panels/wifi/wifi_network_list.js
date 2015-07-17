@@ -3,7 +3,7 @@ define(function(require) {
 
   var DialogService = require('modules/dialog_service');
   var WifiUtils = require('modules/wifi_utils');
-  var WifiHelper = require('shared/wifi_helper');
+  var WifiHelper = require('shared/wifi_helper/wifi_helper');
   var WifiContext = require('modules/wifi_context');
   var wifiManager = WifiHelper.getWifiManager();
 

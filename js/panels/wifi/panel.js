@@ -3,10 +3,10 @@ define(function(require) {
 
   var DialogService = require('modules/dialog_service');
   var SettingsPanel = require('modules/settings_panel');
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
   var WifiWps = require('panels/wifi/wifi_wps');
   var WifiContext = require('modules/wifi_context');
-  var WifiHelper = require('shared/wifi_helper');
+  var WifiHelper = require('shared/wifi_helper/wifi_helper');
   var wifiManager = WifiHelper.getWifiManager();
 
   return function ctor_wifi() {

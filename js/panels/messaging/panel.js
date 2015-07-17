@@ -1,8 +1,8 @@
 define(function(require) {
   'use strict';
 
-  var SIMSlotManager = require('shared/simslot_manager');
-  var MobileOperator = require('shared/mobile_operator');
+  var SIMSlotManager = require('shared/simslot_manager/simslot_manager');
+  var MobileOperator = require('shared/mobile_operator/mobile_operator');
   var Messaging = require('modules/messaging');
   var SettingsPanel = require('modules/settings_panel');
   var SettingsService = require('modules/settings_service');

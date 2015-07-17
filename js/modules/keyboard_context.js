@@ -15,8 +15,8 @@ define(function(require) {
 
   var Observable = require('modules/mvvm/observable');
   var ObservableArray = require('modules/mvvm/observable_array');
-  var KeyboardHelper = require('shared/keyboard_helper');
-  var ManifestHelper = require('shared/manifest_helper');
+  var KeyboardHelper = require('shared/keyboard_helper/keyboard_helper');
+  var ManifestHelper = require('shared/manifest_helper/manifest_helper');
 
   // stores layout indexed by app manifestURL and layoutId
   var _layoutDict = null;

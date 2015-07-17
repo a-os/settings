@@ -3,7 +3,7 @@ define(function(require) {
 
   var SettingsPanel = require('modules/settings_panel');
   var AchievementsList = require('panels/achievements/achievements_list');
-  var SettingsListener = require('shared/settings_listener');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
 
   return function ctor_achievements_panel() {
     var achievementsList;

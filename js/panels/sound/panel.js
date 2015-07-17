@@ -8,7 +8,7 @@ define(function(require) {
   var SettingsPanel = require('modules/settings_panel');
   var VolumeManager = require('panels/sound/volume_manager');
   var ToneManager = require('panels/sound/tone_manager');
-  var LazyLoader = require('shared/lazy_loader');
+  var LazyLoader = require('shared/lazy_loader/lazy_loader');
 
   return function ctor_sound_panel() {
     var volumeManager = VolumeManager();

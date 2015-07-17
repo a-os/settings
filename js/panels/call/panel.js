@@ -4,7 +4,7 @@ define(function(require) {
   var CallSettingsTaskScheduler =
     require('panels/call/call_settings_task_scheduler');
   var CallConstant = require('panels/call/call_constant');
-  var SettingsHelper = require('shared/settings_helper');
+  var SettingsHelper = require('shared/settings_helper/settings_helper');
   var SettingsPanel = require('modules/settings_panel');
   var SettingsCache = require('modules/settings_cache');
   var SettingsService = require('modules/settings_service');

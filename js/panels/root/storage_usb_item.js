@@ -7,8 +7,8 @@
 define(function(require) {
   'use strict';
 
-  var SettingsListener = require('shared/settings_listener');
-  var AsyncStorage = require('shared/async_storage');
+  var SettingsListener = require('shared/settings_listener/settings_listener');
+  var AsyncStorage = require('shared/async_storage/async_storage');
   var SettingsCache = require('modules/settings_cache');
   var SettingsService = require('modules/settings_service');
 

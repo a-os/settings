@@ -6,7 +6,7 @@
 define(function(require) {
   'use strict';
 
-  var ManifestHelper = require('shared/manifest_helper');
+  var ManifestHelper = require('shared/manifest_helper/manifest_helper');
 
   const PREFERRED_ICON_SIZE = 30 * (window.devicePixelRatio || 1);
 

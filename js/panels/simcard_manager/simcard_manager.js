@@ -11,10 +11,10 @@ define(function(require) {
 
   var _ = window.navigator.mozL10n.get;
   var l10n = window.navigator.mozL10n;
-  var Sanitizer = require('shared/sanitizer');
-  var SimSettingsHelper = require('shared/sim_settings_helper');
-  var AirplaneModeHelper = require('shared/airplane_mode_helper');
-  var MobileOperator = require('shared/mobile_operator');
+  var Sanitizer = require('shared/sanitizer/sanitizer');
+  var SimSettingsHelper = require('shared/sim_settings_helper/sim_settings_helper');
+  var AirplaneModeHelper = require('shared/airplane_mode_helper/airplane_mode_helper');
+  var MobileOperator = require('shared/mobile_operator/mobile_operator');
   var SimUIModel = require('panels/simcard_manager/sim_ui_model');
 
   var SimCardManager = function(elements) {

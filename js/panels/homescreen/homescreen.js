@@ -1,7 +1,7 @@
 define(function(require) {
   'use strict';
 
-  var VerticalPreferences = require('shared/homescreens/vertical_preferences');
+  var VerticalPreferences = require('shared/homescreens/homescreens/vertical_preferences');
   var Module = require('modules/base/module');
   var Observable = require('modules/mvvm/observable');
 

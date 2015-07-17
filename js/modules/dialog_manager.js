@@ -13,7 +13,7 @@ define(function(require) {
   'use strict';
 
   var PanelCache = require('modules/panel_cache');
-  var LazyLoader = require('shared/lazy_loader');
+  var LazyLoader = require('shared/lazy_loader/lazy_loader');
 
   var DialogManager = function() {
     this.OVERLAY_SELECTOR = '.settings-dialog-overlay';

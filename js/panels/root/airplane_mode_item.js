@@ -7,7 +7,7 @@
 define(function(require) {
   'use strict';
 
-  var AirplaneModeHelper = require('shared/airplane_mode_helper');
+  var AirplaneModeHelper = require('shared/airplane_mode_helper/airplane_mode_helper');
 
   /**
    * @alias module:panels/root/airplane_mode_item

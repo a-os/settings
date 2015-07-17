@@ -3,8 +3,8 @@ define(function(require) {
 
   // AMD modules
   var SettingsCache = require('modules/settings_cache');
-  var KeyboardHelper = require('shared/keyboard_helper');
-  var LanguageList = require('shared/language_list');
+  var KeyboardHelper = require('shared/keyboard_helper/keyboard_helper');
+  var LanguageList = require('shared/language_list/language_list');
   // import this to update time format while laungage changed
   require('modules/date_time');
 

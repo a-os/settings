@@ -5,7 +5,7 @@
 define(function(require) {
   'use strict';
   var SettingsCache = require('modules/settings_cache');
-  var LazyLoader = require('shared/lazy_loader');
+  var LazyLoader = require('shared/lazy_loader/lazy_loader');
 
   var Support = function() {};
 

@@ -9,7 +9,7 @@ define(function(require) {
 
   var Settings = require('settings');
   var SettingsCache = require('modules/settings_cache');
-  var LazyLoader = require('shared/lazy_loader');
+  var LazyLoader = require('shared/lazy_loader/lazy_loader');
 
   var _settings = navigator.mozSettings;
 

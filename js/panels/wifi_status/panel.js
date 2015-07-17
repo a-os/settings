@@ -2,7 +2,7 @@ define(function(require) {
   'use strict';
 
   var DialogPanel = require('modules/dialog_panel');
-  var WifiHelper = require('shared/wifi_helper');
+  var WifiHelper = require('shared/wifi_helper/wifi_helper');
   var WifiContext = require('modules/wifi_context');
   var wifiManager = WifiHelper.getWifiManager();
 
